@@ -1,0 +1,50 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Anonymized ETL Flow Datasets for Frequent Subgraph Mining
+message: 'If you use this datasets, please cite it as below.'
+type: dataset
+authors:
+  - family-names: Adas
+    given-names: Dolev
+  - family-names: Eytan
+    given-names: Ohad
+    email: ohad.eytan1@ibm.com
+    affiliation: IBM Research
+    orcid: 'https://orcid.org/0000-0001-8655-794X'
+  - family-names: Khazma
+    given-names: Guy
+  - family-names: Sampé
+    given-names: Josep
+  - family-names: Ta-Shma
+    given-names: Paula
+repository-code: >-
+  https://github.com/IBM/Anonymized-ETL-Flow-Datasets-for-FSM
+abstract: >-
+  Anonymized version of six datasets taken from IBM's
+  DataStage™ production systems and can be used for frequent
+  subgraph mining 
+license: CDLA-Sharing-1.0
+date-released: '2023-11-16'
+preferred-citation:
+  type: conference-paper
+  title: Refactoring ETL Flows in The Wild
+  authors:
+    - family-names: Adas
+      given-names: Dolev
+    - family-names: Eytan
+      given-names: Ohad
+      email: ohad.eytan1@ibm.com
+      affiliation: IBM Research
+      orcid: 'https://orcid.org/0000-0001-8655-794X'
+    - family-names: Khazma
+      given-names: Guy
+    - family-names: Sampé
+      given-names: Josep
+    - family-names: Ta-Shma
+      given-names: Paula
+  year: '2023'
+  month: '12'
+  collection-title: "2023 IEEE International Conference on Big Data (Big Data)"
+  location: 'Sorrento, Italy'
