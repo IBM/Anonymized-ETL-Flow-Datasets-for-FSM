@@ -1,13 +1,15 @@
 # Anonymized ETL Flow Datasets for Frequent Subgraph Mining
 ## Datasets Overview
-This repository consists an anonymized version of six datasets taken from IBM's [DataStage™](https://www.ibm.com/products/datastage) production systems and used for frequent subgraph mining in the paper [Refactoring ETL Flows in The Wild](paper-placeholder).
+This repository consists an anonymized version of six datasets taken from IBM's [DataStage™](https://www.ibm.com/products/datastage) production systems and used for frequent subgraph mining in the paper [Refactoring ETL Flows in The Wild](https://doi.org/10.1109/BigData59044.2023.10386531).
 
-If you are using this datasets in publications, please cite:
-> Dolev Adas, Ohad Eytan, Guy Khazma, Josep Sampé, and Paula Ta-Shma 
+If you are using this dataset in publications, please cite:
+> Dolev Adas, Ohad Eytan, Guy Khazma, Josep Sampé, and Paula Ta-Shma.
 > 
-> "Refactoring ETL Flows in The Wild"
+> "Refactoring ETL Flows in The Wild."
 > 
-> 2023 IEEE International Conference on Big Data (Big Data), Sorrento, Italy, 2023
+> In 2023 IEEE International Conference on Big Data (BigData), pp. 1581-1590. IEEE, 2023.
+
+We also have a [companion blog post](https://medium.com/@dolevfel/refactoring-etl-flows-in-the-wild-6914497e157d) to the paper, and a blog post [describing the dataset creation and motivation](https://ibm.biz/datastage-fsm-dataset). 
 
 ## Dataset Format
 Similar to the format used [here](https://github.com/TonyZZX/gSpan.Java) and [here](https://github.com/betterenvi/gSpan), each dataset is a text file, where each line contains one of three options:
